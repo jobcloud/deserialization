@@ -5,11 +5,11 @@ declare(strict_types=1);
 namespace Jobcloud\Tests\Deserialization\Unit;
 
 use Chubbyphp\DecodeEncode\Decoder\DecoderInterface;
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
 use Jobcloud\Deserialization\Deserializer;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**

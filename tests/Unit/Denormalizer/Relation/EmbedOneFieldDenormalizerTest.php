@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Relation\Denormalizer;
 
+use Chubbyphp\Mock\MockMethod\WithoutReturn;
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Accessor\AccessorInterface;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
 use Jobcloud\Deserialization\Denormalizer\Relation\EmbedOneFieldDenormalizer;
 use Jobcloud\Deserialization\DeserializerLogicException;
 use Jobcloud\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Mock\MockMethod\WithoutReturn;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\TestCase;
 

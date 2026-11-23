@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextBuilder;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 

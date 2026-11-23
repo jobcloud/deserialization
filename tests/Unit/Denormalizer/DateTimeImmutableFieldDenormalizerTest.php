@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
-use Jobcloud\Deserialization\Accessor\AccessorInterface;
-use Jobcloud\Deserialization\Denormalizer\DateTimeImmutableFieldDenormalizer;
-use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Chubbyphp\Mock\MockMethod\WithCallback;
 use Chubbyphp\Mock\MockMethod\WithoutReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
+use Jobcloud\Deserialization\Accessor\AccessorInterface;
+use Jobcloud\Deserialization\Denormalizer\DateTimeImmutableFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\TestCase;
 

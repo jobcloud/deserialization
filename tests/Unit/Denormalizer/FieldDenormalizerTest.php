@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Accessor\AccessorInterface;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Jobcloud\Deserialization\Denormalizer\FieldDenormalizer;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\TestCase;
 

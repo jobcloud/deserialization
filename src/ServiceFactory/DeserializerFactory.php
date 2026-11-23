@@ -6,10 +6,10 @@ namespace Jobcloud\Deserialization\ServiceFactory;
 
 use Chubbyphp\DecodeEncode\Decoder\DecoderInterface;
 use Chubbyphp\DecodeEncode\ServiceFactory\DecoderFactory;
+use Chubbyphp\Laminas\Config\Factory\AbstractFactory;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
 use Jobcloud\Deserialization\Deserializer;
 use Jobcloud\Deserialization\DeserializerInterface;
-use Chubbyphp\Laminas\Config\Factory\AbstractFactory;
 use Psr\Container\ContainerInterface;
 
 final class DeserializerFactory extends AbstractFactory

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Accessor;
 
+use Doctrine\Persistence\Proxy;
 use Jobcloud\Deserialization\Accessor\PropertyAccessor;
 use Jobcloud\Deserialization\DeserializerLogicException;
 use Jobcloud\Tests\Deserialization\Resources\Model\AbstractManyModel;
-use Doctrine\Persistence\Proxy;
 use PHPUnit\Framework\TestCase;
 
 /**
