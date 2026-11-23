@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Policy;
 
-use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Jobcloud\Deserialization\Policy\GroupPolicy;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Policy\GroupPolicy;
 use PHPUnit\Framework\TestCase;
 
 /**

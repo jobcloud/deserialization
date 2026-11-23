@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Policy;
 
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Jobcloud\Deserialization\Policy\NullPolicy;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\ServiceFactory;
 
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistryInterface;
 use Jobcloud\Deserialization\ServiceFactory\DenormalizerFactory;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 use Psr\Log\LoggerInterface;

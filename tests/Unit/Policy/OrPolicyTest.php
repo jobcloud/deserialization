@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Policy;
 
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Jobcloud\Deserialization\Policy\OrPolicy;
 use Jobcloud\Deserialization\Policy\PolicyInterface;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**

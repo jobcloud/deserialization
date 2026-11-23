@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
+use Chubbyphp\Mock\MockMethod\WithCallback;
+use Chubbyphp\Mock\MockMethod\WithException;
+use Chubbyphp\Mock\MockMethod\WithoutReturn;
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\Denormalizer;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
@@ -14,11 +19,6 @@ use Jobcloud\Deserialization\DeserializerRuntimeException;
 use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
 use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 use Jobcloud\Deserialization\Policy\PolicyInterface;
-use Chubbyphp\Mock\MockMethod\WithCallback;
-use Chubbyphp\Mock\MockMethod\WithException;
-use Chubbyphp\Mock\MockMethod\WithoutReturn;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;

@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
+use Doctrine\Persistence\Proxy;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
 use Jobcloud\Deserialization\DeserializerLogicException;
 use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Tests\Deserialization\Resources\Model\AbstractManyModel;
-use Doctrine\Persistence\Proxy;
 use PHPUnit\Framework\TestCase;
 
 /**

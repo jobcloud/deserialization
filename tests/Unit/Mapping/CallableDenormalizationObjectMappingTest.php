@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Mapping;
 
+use Chubbyphp\Mock\MockMethod\WithReturn;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Mapping\CallableDenormalizationObjectMapping;
 use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
 use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
-use Chubbyphp\Mock\MockMethod\WithReturn;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**

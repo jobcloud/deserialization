@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer\Relation;
 
-use Jobcloud\Deserialization\Accessor\AccessorInterface;
-use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
-use Jobcloud\Deserialization\DeserializerRuntimeException;
 use Chubbyphp\Mock\MockMethod\WithoutReturn;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
 use Doctrine\Common\Collections\Collection;
+use Jobcloud\Deserialization\Accessor\AccessorInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\TestCase;
 

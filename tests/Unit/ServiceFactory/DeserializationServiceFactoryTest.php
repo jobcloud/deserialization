@@ -6,12 +6,12 @@ namespace Jobcloud\Tests\Deserialization\Unit\ServiceFactory;
 
 use Chubbyphp\Container\Container;
 use Chubbyphp\DecodeEncode\Decoder\Decoder;
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\Denormalizer;
 use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
 use Jobcloud\Deserialization\Deserializer;
 use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory;
 use Jobcloud\Deserialization\ServiceFactory\DeserializationServiceFactory;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;

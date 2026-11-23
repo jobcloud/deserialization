@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Deserialization\Unit\Mapping;
 
+use Chubbyphp\Mock\MockObjectBuilder;
 use Jobcloud\Deserialization\Denormalizer\CallbackFieldDenormalizer;
 use Jobcloud\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
 use Jobcloud\Deserialization\Denormalizer\DateTimeImmutableFieldDenormalizer;
@@ -16,7 +17,6 @@ use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceOneFieldDenormalizer
 use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory;
 use Jobcloud\Deserialization\Policy\NullPolicy;
 use Jobcloud\Deserialization\Policy\PolicyInterface;
-use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**
